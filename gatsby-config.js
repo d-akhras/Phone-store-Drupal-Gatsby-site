@@ -11,7 +11,7 @@ module.exports = {
         baseUrl: `http://localhost/contenta/web/`,
        // baseUrl: `https://99b0-2a02-cb80-4083-7e5d-f564-188b-4745-a93b.in.ngrok.io/`,
         apiBase: `jsonapi`, // optional, defaults to `jsonapi`,
-        preview: true,
+        // preview: true,
       },
     },
 
