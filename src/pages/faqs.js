@@ -42,19 +42,16 @@ export default FAQPage
 
 export const query = graphql `query GetQuestions
 {
-  allNodeFaq 
-  {
-    edges
-    {
-      node 
-      {
+  allNodeFaq {
+    edges    {
+      node {
         id
+        title
         path
         {
           alias
         }
-        title
-      }
+        }
     }
   }
 }`
