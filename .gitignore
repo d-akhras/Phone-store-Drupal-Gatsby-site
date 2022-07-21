@@ -67,3 +67,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+#by Dalal: Add .env* files to .gitignore -  I've added a file .env.development: ENABLE_GATSBY_REFRESH_ENDPOINT=1 env   => Force a refresh of GraphQL data without restarting gatsby develop => http://localhost:8000/__refresh ==> Gatsby Integration module     
+.env.*
